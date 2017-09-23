@@ -1,0 +1,22 @@
+#1.
+SignIn: Email, Password
+
+#2.
+SignUp: Email, Password, confirm password, Mobile Number (optional)
+
+#3.
+DashBoard: 4 tabs bottom---> From, To, Feeds, History.
+    Departure From Airport name, place, date , time
+    Arrival To Airport name, place, date , time
+
+#4.
+FireBase setup
+    https://firebase.google.com/docs/ios/setup
+
+#5.
+Prepare API for Airport names and codes
+    http://airports-list.com/airports
+    prepare plist for airports names based on the list above url
+
+#6.
+    Dynamically shows airport names for AutoSuggestion while user typing
