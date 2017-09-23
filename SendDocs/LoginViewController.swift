@@ -18,6 +18,9 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // ekkuva confuse avvaku...nannu confuse cheyyaku .
+        
     }
     
     override func didReceiveMemoryWarning() {
