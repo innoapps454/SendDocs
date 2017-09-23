@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MyriadPro-Bold.ttf">
+            <string>MyriadPro-Bold</string>
+        </array>
+        <array key="MyriadPro-Regular.ttf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignupViewController" customModule="SendDocs" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="lBk-TS-vDU" id="Vq5-49-b1d"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="1" contentMode="scaleToFill" id="lBk-TS-vDU">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uA3-Ki-gLi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName*" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Qwc-V6-G0d" customClass="JTTextField" customModule="SendDocs" customModuleProvider="target">
+                            <rect key="frame" x="20" y="200.5" width="335" height="35"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="KXZ-0q-1IE">
+                                    <variation key="heightClass=compact" constant="45"/>
+                                </constraint>
+                            </constraints>
+                            <color key="textColor" red="0.57647058819999997" green="0.59215686270000001" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="KXZ-0q-1IE"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=compact">
+                                <mask key="constraints">
+                                    <exclude reference="KXZ-0q-1IE"/>
+                                </mask>
+                            </variation>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password*" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="rGS-hX-CTq" customClass="JTTextField" customModule="SendDocs" customModuleProvider="target">
+                            <rect key="frame" x="20" y="243.5" width="335" height="35"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.57647058819999997" green="0.59215686270000001" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email*" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="66g-Df-8tU" customClass="JTTextField" customModule="SendDocs" customModuleProvider="target">
+                            <rect key="frame" x="20" y="286.5" width="335" height="35"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="RnS-de-Nrw"/>
+                                <constraint firstAttribute="height" constant="30" id="bpA-QV-e8Y">
+                                    <variation key="heightClass=compact" constant="45"/>
+                                </constraint>
+                            </constraints>
+                            <color key="textColor" red="0.57647058819999997" green="0.59215686270000001" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="bpA-QV-e8Y"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=compact">
+                                <mask key="constraints">
+                                    <exclude reference="RnS-de-Nrw"/>
+                                    <include reference="bpA-QV-e8Y"/>
+                                </mask>
+                            </variation>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eg-qz-Psf">
+                            <rect key="frame" x="20" y="553" width="335" height="45"/>
+                            <color key="backgroundColor" red="0.098039215690000001" green="0.23529411759999999" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="18"/>
+                            <state key="normal" title="Sign up">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knw-tN-Lmx">
+                            <rect key="frame" x="20" y="602" width="335" height="45"/>
+                            <color key="backgroundColor" red="0.098039215690000001" green="0.23529411759999999" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="NOa-Br-89f"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="18"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=compact">
+                                <mask key="constraints">
+                                    <exclude reference="NOa-Br-89f"/>
+                                </mask>
+                            </variation>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location*" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="lSd-ZX-j4C" customClass="JTTextField" customModule="SendDocs" customModuleProvider="target">
+                            <rect key="frame" x="20" y="331.5" width="335" height="35"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.57647058819999997" green="0.59215686270000001" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.25098039220000001" green="0.50196078430000002" blue="0.0" alpha="0.52000000000000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Qwc-V6-G0d" firstAttribute="height" secondItem="rGS-hX-CTq" secondAttribute="height" id="1Hg-Gi-ETn"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="width" secondItem="rGS-hX-CTq" secondAttribute="width" id="2O9-2f-g7b"/>
+                        <constraint firstItem="lSd-ZX-j4C" firstAttribute="height" secondItem="66g-Df-8tU" secondAttribute="height" id="5Je-8N-9Na"/>
+                        <constraint firstAttribute="bottom" secondItem="knw-tN-Lmx" secondAttribute="bottom" constant="20" id="5rF-M0-9YZ"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="knw-tN-Lmx" secondAttribute="bottom" constant="55" id="98y-rM-b05">
+                            <variation key="heightClass=compact" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="height" secondItem="0eg-qz-Psf" secondAttribute="height" id="9Nr-iQ-ql2"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="top" secondItem="Qwc-V6-G0d" secondAttribute="bottom" constant="8" id="A8W-Ir-RC3"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="top" secondItem="0eg-qz-Psf" secondAttribute="bottom" constant="4" id="CDK-wF-XmU"/>
+                        <constraint firstItem="lSd-ZX-j4C" firstAttribute="width" secondItem="66g-Df-8tU" secondAttribute="width" id="DBI-Ct-fjJ"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="width" secondItem="uA3-Ki-gLi" secondAttribute="width" id="Ddn-l5-car">
+                            <variation key="heightClass=compact" constant="-40"/>
+                        </constraint>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="centerX" secondItem="uA3-Ki-gLi" secondAttribute="centerX" id="Eke-P4-GcE"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerY" secondItem="uA3-Ki-gLi" secondAttribute="centerY" constant="-29.5" id="Hil-gQ-3hm"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerX" secondItem="uA3-Ki-gLi" secondAttribute="centerX" id="I8c-KM-qP4"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="width" secondItem="0eg-qz-Psf" secondAttribute="width" id="IXW-8H-jOO"/>
+                        <constraint firstItem="lSd-ZX-j4C" firstAttribute="top" secondItem="66g-Df-8tU" secondAttribute="bottom" constant="27.5" id="K1B-IT-lI4">
+                            <variation key="heightClass=compact" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="top" secondItem="rGS-hX-CTq" secondAttribute="bottom" constant="12.5" id="Lkv-SI-bZi">
+                            <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="width" secondItem="Qwc-V6-G0d" secondAttribute="width" id="MKc-WK-414"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="centerX" secondItem="Qwc-V6-G0d" secondAttribute="centerX" id="NIX-Dp-DDb"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="width" secondItem="uA3-Ki-gLi" secondAttribute="width" constant="-40" id="NPz-2U-12W"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="top" secondItem="0eg-qz-Psf" secondAttribute="bottom" constant="20" id="NQN-ot-haf"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="centerX" secondItem="Qwc-V6-G0d" secondAttribute="centerX" id="Q6E-cP-tgP"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="height" secondItem="rGS-hX-CTq" secondAttribute="height" id="UNE-KR-TTE"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="width" secondItem="Qwc-V6-G0d" secondAttribute="width" id="X2b-GT-Kat"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="knw-tN-Lmx" secondAttribute="bottom" constant="27.5" id="XfI-ei-5Ay">
+                            <variation key="heightClass=compact-widthClass=compact" constant="10"/>
+                        </constraint>
+                        <constraint firstItem="lSd-ZX-j4C" firstAttribute="centerX" secondItem="66g-Df-8tU" secondAttribute="centerX" id="alr-Nx-9sC"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="height" secondItem="Qwc-V6-G0d" secondAttribute="height" id="bD3-if-XFh"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerX" secondItem="uA3-Ki-gLi" secondAttribute="centerX" id="bVq-zp-CDb"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="width" secondItem="lSd-ZX-j4C" secondAttribute="width" id="bba-LO-U10"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="centerX" secondItem="0eg-qz-Psf" secondAttribute="centerX" id="ccE-5H-9MV"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="centerX" secondItem="0eg-qz-Psf" secondAttribute="centerX" id="dhw-yQ-Mwd"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerX" secondItem="rGS-hX-CTq" secondAttribute="centerX" id="dtw-ia-24y"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="top" secondItem="Qwc-V6-G0d" secondAttribute="bottom" constant="20" id="dyY-29-ZvS"/>
+                        <constraint firstItem="lSd-ZX-j4C" firstAttribute="top" secondItem="66g-Df-8tU" secondAttribute="bottom" constant="10" id="fSR-sT-9lP"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="width" secondItem="0eg-qz-Psf" secondAttribute="width" id="g1b-SU-fvu"/>
+                        <constraint firstItem="knw-tN-Lmx" firstAttribute="height" secondItem="0eg-qz-Psf" secondAttribute="height" id="gIA-pO-U2L"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerX" secondItem="lSd-ZX-j4C" secondAttribute="centerX" id="gh3-CA-LKK"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="top" secondItem="rGS-hX-CTq" secondAttribute="bottom" constant="8" id="hSe-xy-O2x"/>
+                        <constraint firstItem="Qwc-V6-G0d" firstAttribute="top" secondItem="uA3-Ki-gLi" secondAttribute="top" constant="82" id="jxM-Kk-naz"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerX" secondItem="rGS-hX-CTq" secondAttribute="centerX" id="jyR-yY-IeP"/>
+                        <constraint firstItem="rGS-hX-CTq" firstAttribute="height" secondItem="Qwc-V6-G0d" secondAttribute="height" id="o1T-Nj-IqU"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="width" secondItem="uA3-Ki-gLi" secondAttribute="width" constant="-40" id="ppD-U5-vtg"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="height" secondItem="lSd-ZX-j4C" secondAttribute="height" id="qDQ-9l-Oje"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="height" secondItem="rGS-hX-CTq" secondAttribute="height" id="tlC-cr-2IZ"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="width" secondItem="rGS-hX-CTq" secondAttribute="width" id="xil-V8-0Ua"/>
+                        <constraint firstAttribute="trailing" secondItem="knw-tN-Lmx" secondAttribute="trailing" constant="20" id="xjZ-xd-kaw"/>
+                        <constraint firstItem="66g-Df-8tU" firstAttribute="centerY" secondItem="uA3-Ki-gLi" secondAttribute="centerY" id="y2G-hN-90i">
+                            <variation key="heightClass=compact" constant="-40"/>
+                            <variation key="heightClass=compact-widthClass=compact" constant="-50"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="jxM-Kk-naz"/>
+                            <exclude reference="1Hg-Gi-ETn"/>
+                            <exclude reference="dyY-29-ZvS"/>
+                            <exclude reference="Q6E-cP-tgP"/>
+                            <exclude reference="X2b-GT-Kat"/>
+                            <exclude reference="o1T-Nj-IqU"/>
+                            <exclude reference="bVq-zp-CDb"/>
+                            <exclude reference="xil-V8-0Ua"/>
+                            <exclude reference="Ddn-l5-car"/>
+                            <exclude reference="tlC-cr-2IZ"/>
+                            <exclude reference="Lkv-SI-bZi"/>
+                            <exclude reference="dtw-ia-24y"/>
+                            <exclude reference="y2G-hN-90i"/>
+                            <exclude reference="DBI-Ct-fjJ"/>
+                            <exclude reference="K1B-IT-lI4"/>
+                            <exclude reference="5Je-8N-9Na"/>
+                            <exclude reference="alr-Nx-9sC"/>
+                            <exclude reference="ccE-5H-9MV"/>
+                            <exclude reference="98y-rM-b05"/>
+                            <exclude reference="xjZ-xd-kaw"/>
+                            <exclude reference="g1b-SU-fvu"/>
+                            <exclude reference="XfI-ei-5Ay"/>
+                            <exclude reference="NQN-ot-haf"/>
+                            <exclude reference="9Nr-iQ-ql2"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="jxM-Kk-naz"/>
+                            <exclude reference="1Hg-Gi-ETn"/>
+                            <include reference="dyY-29-ZvS"/>
+                            <include reference="Q6E-cP-tgP"/>
+                            <exclude reference="bD3-if-XFh"/>
+                            <include reference="X2b-GT-Kat"/>
+                            <exclude reference="A8W-Ir-RC3"/>
+                            <exclude reference="MKc-WK-414"/>
+                            <exclude reference="NIX-Dp-DDb"/>
+                            <include reference="o1T-Nj-IqU"/>
+                            <exclude reference="2O9-2f-g7b"/>
+                            <exclude reference="jyR-yY-IeP"/>
+                            <exclude reference="hSe-xy-O2x"/>
+                            <exclude reference="ppD-U5-vtg"/>
+                            <include reference="bVq-zp-CDb"/>
+                            <include reference="xil-V8-0Ua"/>
+                            <exclude reference="gh3-CA-LKK"/>
+                            <exclude reference="qDQ-9l-Oje"/>
+                            <include reference="Ddn-l5-car"/>
+                            <include reference="tlC-cr-2IZ"/>
+                            <include reference="Lkv-SI-bZi"/>
+                            <exclude reference="bba-LO-U10"/>
+                            <include reference="dtw-ia-24y"/>
+                            <exclude reference="UNE-KR-TTE"/>
+                            <exclude reference="Hil-gQ-3hm"/>
+                            <exclude reference="I8c-KM-qP4"/>
+                            <include reference="y2G-hN-90i"/>
+                            <include reference="DBI-Ct-fjJ"/>
+                            <include reference="K1B-IT-lI4"/>
+                            <include reference="5Je-8N-9Na"/>
+                            <exclude reference="fSR-sT-9lP"/>
+                            <include reference="alr-Nx-9sC"/>
+                            <include reference="ccE-5H-9MV"/>
+                            <exclude reference="dhw-yQ-Mwd"/>
+                            <exclude reference="Eke-P4-GcE"/>
+                            <exclude reference="98y-rM-b05"/>
+                            <exclude reference="gIA-pO-U2L"/>
+                            <exclude reference="xjZ-xd-kaw"/>
+                            <include reference="g1b-SU-fvu"/>
+                            <exclude reference="5rF-M0-9YZ"/>
+                            <exclude reference="CDK-wF-XmU"/>
+                            <exclude reference="IXW-8H-jOO"/>
+                            <include reference="NQN-ot-haf"/>
+                            <include reference="9Nr-iQ-ql2"/>
+                            <exclude reference="NPz-2U-12W"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="XfI-ei-5Ay"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uA3-Ki-gLi" secondAttribute="trailing" id="5cA-AV-y4g"/>
+                <constraint firstItem="uA3-Ki-gLi" firstAttribute="leading" secondItem="lBk-TS-vDU" secondAttribute="leading" id="IDh-dQ-ZTm"/>
+                <constraint firstItem="uA3-Ki-gLi" firstAttribute="bottom" secondItem="tXH-yQ-BPJ" secondAttribute="bottom" id="MRn-f1-zct"/>
+                <constraint firstItem="uA3-Ki-gLi" firstAttribute="top" secondItem="lBk-TS-vDU" secondAttribute="top" id="wTq-HL-lDm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="tXH-yQ-BPJ"/>
+            <point key="canvasLocation" x="-255" y="70"/>
+        </view>
+    </objects>
+</document>

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		4D1D1F831F718D9F00F34E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D1F821F718D9F00F34E7C /* AppDelegate.swift */; };
 		4D1D1F851F718D9F00F34E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D1F841F718D9F00F34E7C /* ViewController.swift */; };
-		4D1D1F881F718D9F00F34E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D1F861F718D9F00F34E7C /* Main.storyboard */; };
 		4D1D1F8A1F718D9F00F34E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D1F891F718D9F00F34E7C /* Assets.xcassets */; };
 		4D1D1F8D1F718D9F00F34E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D1F8B1F718D9F00F34E7C /* LaunchScreen.storyboard */; };
 		4D1D1F981F718D9F00F34E7C /* SendDocsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D1F971F718D9F00F34E7C /* SendDocsTests.swift */; };
 		4D1D1FA31F718DA000F34E7C /* SendDocsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D1FA21F718DA000F34E7C /* SendDocsUITests.swift */; };
 		4D1D1FB11F718E9700F34E7C /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D1FB01F718E9700F34E7C /* ReadMe */; };
+		4D4AA3C61F76E8CF008FDED2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D4AA3C51F76E8CE008FDED2 /* GoogleService-Info.plist */; };
+		4D4AA3CA1F76FCA8008FDED2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AA3C81F76FCA8008FDED2 /* LoginViewController.swift */; };
+		4D4AA3CB1F76FCA8008FDED2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4AA3C91F76FCA8008FDED2 /* LoginViewController.xib */; };
+		4D4AA3CE1F76FCBE008FDED2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AA3CC1F76FCBE008FDED2 /* SignupViewController.swift */; };
+		4D4AA3CF1F76FCBE008FDED2 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4AA3CD1F76FCBE008FDED2 /* SignupViewController.xib */; };
+		575624D7975F62487C0C9D55 /* Pods_SendDocs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F1F01C418E164224F6F5E5 /* Pods_SendDocs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B54874478167B36B21E33D /* Pods-SendDocs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendDocs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendDocs/Pods-SendDocs.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1D1F7F1F718D9F00F34E7C /* SendDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendDocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1D1F821F718D9F00F34E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D1D1F841F718D9F00F34E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D1D1F871F718D9F00F34E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1D1F891F718D9F00F34E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1D1F8C1F718D9F00F34E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1D1F8E1F718D9F00F34E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		4D1D1FA21F718DA000F34E7C /* SendDocsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDocsUITests.swift; sourceTree = "<group>"; };
 		4D1D1FA41F718DA000F34E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1D1FB01F718E9700F34E7C /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		4D39CAB21E7C678EE98E8F64 /* Pods-SendDocs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendDocs.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendDocs/Pods-SendDocs.release.xcconfig"; sourceTree = "<group>"; };
+		4D4AA3C51F76E8CE008FDED2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D4AA3C81F76FCA8008FDED2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4D4AA3C91F76FCA8008FDED2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4D4AA3CC1F76FCBE008FDED2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4D4AA3CD1F76FCBE008FDED2 /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		B1F1F01C418E164224F6F5E5 /* Pods_SendDocs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendDocs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575624D7975F62487C0C9D55 /* Pods_SendDocs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +97,8 @@
 				4D1D1F961F718D9F00F34E7C /* SendDocsTests */,
 				4D1D1FA11F718DA000F34E7C /* SendDocsUITests */,
 				4D1D1F801F718D9F00F34E7C /* Products */,
+				837DAE05DD2B310FBD60E72A /* Pods */,
+				A8B6677C59025691F3846DED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +115,13 @@
 		4D1D1F811F718D9F00F34E7C /* SendDocs */ = {
 			isa = PBXGroup;
 			children = (
+				4D4AA3C51F76E8CE008FDED2 /* GoogleService-Info.plist */,
 				4D1D1F821F718D9F00F34E7C /* AppDelegate.swift */,
 				4D1D1F841F718D9F00F34E7C /* ViewController.swift */,
-				4D1D1F861F718D9F00F34E7C /* Main.storyboard */,
+				4D4AA3C81F76FCA8008FDED2 /* LoginViewController.swift */,
+				4D4AA3C91F76FCA8008FDED2 /* LoginViewController.xib */,
+				4D4AA3CC1F76FCBE008FDED2 /* SignupViewController.swift */,
+				4D4AA3CD1F76FCBE008FDED2 /* SignupViewController.xib */,
 				4D1D1F891F718D9F00F34E7C /* Assets.xcassets */,
 				4D1D1F8B1F718D9F00F34E7C /* LaunchScreen.storyboard */,
 				4D1D1F8E1F718D9F00F34E7C /* Info.plist */,
@@ -128,6 +147,23 @@
 			path = SendDocsUITests;
 			sourceTree = "<group>";
 		};
+		837DAE05DD2B310FBD60E72A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B54874478167B36B21E33D /* Pods-SendDocs.debug.xcconfig */,
+				4D39CAB21E7C678EE98E8F64 /* Pods-SendDocs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8B6677C59025691F3846DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F01C418E164224F6F5E5 /* Pods_SendDocs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1D1FA71F718DA000F34E7C /* Build configuration list for PBXNativeTarget "SendDocs" */;
 			buildPhases = (
+				F6F3E3EB049CF5C819335A24 /* [CP] Check Pods Manifest.lock */,
 				4D1D1F7B1F718D9F00F34E7C /* Sources */,
 				4D1D1F7C1F718D9F00F34E7C /* Frameworks */,
 				4D1D1F7D1F718D9F00F34E7C /* Resources */,
+				8984C2EF74F2993617ED9FC3 /* [CP] Embed Pods Frameworks */,
+				FEA913F67214559CEB205408 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,8 +276,10 @@
 			files = (
 				4D1D1FB11F718E9700F34E7C /* ReadMe in Resources */,
 				4D1D1F8D1F718D9F00F34E7C /* LaunchScreen.storyboard in Resources */,
+				4D4AA3C61F76E8CF008FDED2 /* GoogleService-Info.plist in Resources */,
 				4D1D1F8A1F718D9F00F34E7C /* Assets.xcassets in Resources */,
-				4D1D1F881F718D9F00F34E7C /* Main.storyboard in Resources */,
+				4D4AA3CB1F76FCA8008FDED2 /* LoginViewController.xib in Resources */,
+				4D4AA3CF1F76FCBE008FDED2 /* SignupViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +299,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8984C2EF74F2993617ED9FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendDocs/Pods-SendDocs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F3E3EB049CF5C819335A24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA913F67214559CEB205408 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendDocs/Pods-SendDocs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D1D1F7B1F718D9F00F34E7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4AA3CA1F76FCA8008FDED2 /* LoginViewController.swift in Sources */,
+				4D4AA3CE1F76FCBE008FDED2 /* SignupViewController.swift in Sources */,
 				4D1D1F851F718D9F00F34E7C /* ViewController.swift in Sources */,
 				4D1D1F831F718D9F00F34E7C /* AppDelegate.swift in Sources */,
 			);
@@ -300,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D1D1F861F718D9F00F34E7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D1D1F871F718D9F00F34E7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D1D1F8B1F718D9F00F34E7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,31 +511,35 @@
 		};
 		4D1D1FA81F718DA000F34E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B54874478167B36B21E33D /* Pods-SendDocs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 785J9EWZY7;
 				INFOPLIST_FILE = SendDocs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VSK.SendDocs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4D1D1FA91F718DA000F34E7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D39CAB21E7C678EE98E8F64 /* Pods-SendDocs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 785J9EWZY7;
 				INFOPLIST_FILE = SendDocs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VSK.SendDocs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,16 +7,29 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var loginVC: LoginViewController!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("Application did finish launching")
+        FIRApp.configure()
+        
+        // call Loginvc to load as rootvc from here
+        // replace ur viewcontroller with LoginVC class, i need perfect namings to match screen so that it wud be easy for both of us to identify.
+        // rey manam not usin YES, wait a min
+        
+        loginVC = LoginViewController(nibName:"LoginViewController",bundle:nil)
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+        window!.rootViewController = loginVC
+        window!.makeKeyAndVisible()
         return true
     }
 
